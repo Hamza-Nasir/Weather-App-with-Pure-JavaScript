@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        
+        <div class="location-class">
+            
+                <div id="location-div" class="center-heading">
+                    <h1>Location</h1>
+                </div>
+                <input id="search-bar" class="search-bar" list="autocomplete-list" type="text" placeholder="Search" autocomplete="off" >
+                <datalist id="autocomplete-list">
+
+                </datalist>
+                <button id="search-button">Search</button>
+        </div >
+
+        <div id="user-location">
+
+        </div>
+
+        <div id="table-tag">
+
+        </div>
+
+        <script src="weather.js" async defer></script>        
+    </body>
+</html>
