@@ -1,4 +1,4 @@
-const apiKey = "df0dc13b612c4066a23114812220306";
+const apiKey = secrets.API_KEY;
 
 const searchbar = document.getElementById("search-bar");
 var typingTimer;
